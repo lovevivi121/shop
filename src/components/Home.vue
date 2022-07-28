@@ -92,7 +92,7 @@
         if(res.meta.status !== 200) return this.$message.error(res.meta.msg);
         //data是个数组，直接赋值给数组没有问题
         this.menulist = res.data;
-        console.log(res);
+        // console.log(res);
       },
       //click, sidebar open or close
       toggleCollapse() { 
